@@ -1,3 +1,6 @@
+'''
+Created by: Aditya Sarode, Aaryaman 'Jam' Vashishtha and Vaibhav Tulsyan (a.k.a xennygrimmato)
+'''
 import time
 import sys
 from PyQt4 import QtGui, QtCore
@@ -125,7 +128,7 @@ class Example(QtGui.QWidget):
 	self.accuracylbl.setStyleSheet(_fromUtf8("background-color: rgb(201, 183, 255);"))
         self.setGeometry(10, 10, 1365,758)
 	self.setStyleSheet(_fromUtf8("background-color: #25343B;")) #25343B
-        self.setWindowTitle('Typeracer')
+        self.setWindowTitle('SwiftTyper')
         self.show()
         
     def onChanged(self, text): 
